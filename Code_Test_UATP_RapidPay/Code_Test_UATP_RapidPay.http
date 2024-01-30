@@ -1,0 +1,6 @@
+@Code_Test_UATP_RapidPay_HostAddress = http://localhost:5088
+
+GET {{Code_Test_UATP_RapidPay_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
