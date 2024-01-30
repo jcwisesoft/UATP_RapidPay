@@ -9,11 +9,7 @@ Welcome to the UATP_RapidPay project! This API is built with .NET and serves as 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-  - [API Endpoints](#api-endpoints)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Getting Started
 
@@ -30,4 +26,10 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/yourusername/your-api-project.git
+   git clone https://github.com/jcwisesoft/UATP_RapidPay.git
+
+### How to Run
+  1. Open the project on visual studio and then run migration to create the database 
+  2. then run the app which will open the swagger dashboard.
+  3. to create card and make payment, you have to create an account and then login with the jwt token generated.
+
